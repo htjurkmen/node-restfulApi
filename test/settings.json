@@ -1,6 +1,6 @@
 {
-  "logFilePath": "C:\\Users\\hjusein\\Desktop\\report\\results.log",
-  "htmlReportFilePath": "C:\\Users\\hjusein\\Desktop\\report\\execution_report.html",
+  "logFilePath": "C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\results.log",
+  "htmlReportFilePath": "C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\execution_report.html",
   "hostWithPort": "http://localhost:3001",
   "host": "localhost"
 }

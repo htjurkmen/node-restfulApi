@@ -1,4 +1,4 @@
-[{"test scenarios" : "15/4/2015 14:1:4"},
+[{"test scenarios" : "15/4/2015 14:52:37"},
 {"test_case" : "testHelloWorld", "status" : "pass"},
 {"test_case": "testHelloWorld", "status" : "fail", "reason": "ERROR: Actual message: Hello World! Expected message:Hello Worl!"},
 {"test_case" : "createUser", "status" : "pass"},

@@ -1,3 +1,3 @@
-cd C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi
+cd ..
 node server.js
 pause
