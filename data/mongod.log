@@ -1,0 +1,871 @@
+2015-04-01T11:16:22.494+0300 W -        [initandlisten] Detected unclean shutdown - C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.lock is not empty.
+2015-04-01T11:16:22.526+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-01T11:16:22.526+0300 I JOURNAL  [initandlisten] recover begin
+2015-04-01T11:16:22.526+0300 I JOURNAL  [initandlisten] recover lsn: 177606
+2015-04-01T11:16:22.526+0300 I JOURNAL  [initandlisten] recover C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal\j._0
+2015-04-01T11:16:22.527+0300 I JOURNAL  [initandlisten] recover skipping application of section seq:0 < lsn:177606
+2015-04-01T11:16:22.527+0300 I JOURNAL  [initandlisten] recover skipping application of section seq:118386 < lsn:177606
+2015-04-01T11:16:22.534+0300 I JOURNAL  [initandlisten] recover cleaning up
+2015-04-01T11:16:22.534+0300 I JOURNAL  [initandlisten] removeJournalFiles
+2015-04-01T11:16:22.535+0300 I JOURNAL  [initandlisten] recover done
+2015-04-01T11:16:22.549+0300 I JOURNAL  [durability] Durability thread started
+2015-04-01T11:16:22.549+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-01T11:16:22.549+0300 I CONTROL  [initandlisten] MongoDB starting : pid=13384 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-01T11:16:22.549+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-01T11:16:22.549+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-01T11:16:22.550+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-01T11:16:22.550+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-01T11:16:22.550+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-01T11:16:22.550+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-01T11:16:22.550+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-01T11:16:22.574+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-01T17:57:15.339+0300 I CONTROL  Ctrl-C signal
+2015-04-01T17:57:15.339+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-04-01T17:57:15.339+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-01T17:57:15.339+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-01T17:57:15.340+0300 I NETWORK  [consoleTerminate] closing listening socket: 408
+2015-04-01T17:57:15.340+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-01T17:57:15.340+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-01T17:57:15.340+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-01T17:57:15.340+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-01T17:57:15.343+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-01T17:57:15.343+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-01T17:57:15.344+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-01T17:57:15.442+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-01T17:57:15.442+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-01T17:57:15.442+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-01T17:57:15.446+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-01T17:57:15.446+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-01T17:57:15.446+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-01T23:23:25.359+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-01T23:23:25.398+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-01T23:23:25.398+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-01T23:23:25.411+0300 I JOURNAL  [durability] Durability thread started
+2015-04-01T23:23:25.411+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-01T23:23:25.411+0300 I CONTROL  [initandlisten] MongoDB starting : pid=13528 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-01T23:23:25.411+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-01T23:23:25.412+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-01T23:23:25.428+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:46:48.050+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:46:48.050+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:46:48.052+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:46:48.053+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:46:48.053+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:46:48.053+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:46:48.053+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:46:48.053+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:46:48.053+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:46:48.055+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:46:48.055+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:46:48.057+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:46:48.155+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:46:48.155+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:46:48.155+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:46:48.160+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:46:48.160+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:46:48.160+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:48:03.762+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:48:03.804+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:48:03.804+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:48:03.823+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:48:03.823+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] MongoDB starting : pid=14916 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:48:03.824+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:48:03.851+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:48:15.970+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:48:15.970+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:48:15.970+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:48:15.970+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:48:15.970+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:48:15.970+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:48:15.970+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:48:15.970+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:48:15.970+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:48:15.975+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:48:15.978+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:48:15.979+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:48:16.072+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:48:16.072+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:48:16.072+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:48:16.077+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:48:16.077+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:48:16.077+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:48:29.596+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:48:29.627+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:48:29.627+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:48:29.646+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:48:29.647+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5152 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:48:29.647+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:48:29.666+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:50:25.882+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:50:25.882+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:50:25.882+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:50:25.882+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:50:25.882+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:50:25.882+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:50:25.882+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:50:25.882+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:50:25.882+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:50:25.886+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:50:25.891+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:50:25.891+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:50:25.984+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:50:25.984+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:50:25.984+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:50:25.987+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:50:25.987+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:50:25.987+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:50:35.049+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:50:35.077+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:50:35.077+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:50:35.097+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:50:35.097+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:50:35.098+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5056 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:50:35.098+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:50:35.098+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:50:35.099+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:50:35.099+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:50:35.099+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:50:35.099+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:50:35.099+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:50:35.112+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:53:37.914+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:53:37.914+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:53:37.914+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:53:37.914+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:53:37.914+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:53:37.914+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:53:37.914+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:53:37.914+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:53:37.914+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:53:37.919+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:53:37.922+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:53:37.923+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:53:38.016+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:53:38.016+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:53:38.016+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:53:38.021+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:53:38.021+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:53:38.021+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:53:42.155+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:53:42.192+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:53:42.192+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:53:42.211+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:53:42.212+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] MongoDB starting : pid=11796 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:53:42.212+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:53:42.232+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:54:58.817+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:54:58.817+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:54:58.817+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:54:58.817+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:54:58.817+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:54:58.817+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:54:58.817+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:54:58.818+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:54:58.818+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:54:58.821+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:54:58.825+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:54:58.826+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:54:58.921+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:54:58.921+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:54:58.921+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:54:58.926+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:54:58.926+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:54:58.926+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:55:02.445+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:55:02.478+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:55:02.478+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:55:02.497+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:55:02.498+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] MongoDB starting : pid=6304 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:55:02.498+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:55:02.517+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:55:05.666+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:55:05.666+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:55:05.666+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:55:05.666+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:55:05.666+0300 I NETWORK  [consoleTerminate] closing listening socket: 396
+2015-04-02T18:55:05.666+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:55:05.666+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:55:05.666+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:55:05.666+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:55:05.671+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:55:05.675+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:55:05.675+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:55:05.769+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:55:05.769+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:55:05.769+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:55:05.774+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:55:05.774+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:55:05.774+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:55:40.505+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:55:40.535+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:55:40.535+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:55:40.556+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:55:40.556+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4932 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:55:40.556+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:55:40.577+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:59:00.465+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:59:00.465+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:59:00.465+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:59:00.465+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:59:00.465+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:59:00.465+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:59:00.465+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:59:00.466+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:59:00.466+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:59:00.470+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:59:00.475+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:59:00.476+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:59:00.569+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:59:00.569+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:59:00.569+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:59:00.574+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:59:00.574+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:59:00.574+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-02T18:59:14.006+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-02T18:59:14.045+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-02T18:59:14.045+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-02T18:59:14.065+0300 I JOURNAL  [durability] Durability thread started
+2015-04-02T18:59:14.066+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] MongoDB starting : pid=13116 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-02T18:59:14.066+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-02T18:59:14.085+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-02T18:59:25.905+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-02T18:59:25.906+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-02T18:59:25.906+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-02T18:59:25.906+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-02T18:59:25.906+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-02T18:59:25.906+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-02T18:59:25.906+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-02T18:59:25.906+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-02T18:59:25.906+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-02T18:59:25.911+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-02T18:59:25.915+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-02T18:59:25.916+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-02T18:59:26.008+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-02T18:59:26.008+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-02T18:59:26.008+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-02T18:59:26.013+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-02T18:59:26.013+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-02T18:59:26.013+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:15:50.473+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:15:50.515+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:15:50.516+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:15:50.531+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:15:50.532+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:15:50.532+0300 I CONTROL  [initandlisten] MongoDB starting : pid=15576 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:15:50.532+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:15:50.532+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:15:50.532+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:15:50.533+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:15:50.533+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:15:50.533+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:15:50.533+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:15:50.644+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:16:17.533+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:16:17.533+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:16:17.535+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:16:17.535+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:16:17.535+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-03T15:16:17.535+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:16:17.535+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:16:17.535+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:16:17.535+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:16:17.538+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:16:17.542+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:16:17.543+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:16:17.638+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:16:17.638+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:16:17.638+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:16:17.643+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:16:17.643+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:16:17.644+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:41:16.715+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:41:16.752+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:41:16.752+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:41:16.769+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:41:16.769+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] MongoDB starting : pid=13536 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:41:16.770+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:41:16.790+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:41:23.613+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:41:23.613+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:41:23.613+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:41:23.613+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:41:23.613+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-03T15:41:23.613+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:41:23.613+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:41:23.614+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:41:23.614+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:41:23.618+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:41:23.621+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:41:23.622+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:41:23.716+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:41:23.716+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:41:23.716+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:41:23.720+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:41:23.720+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:41:23.720+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:46:34.186+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:46:34.209+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:46:34.209+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:46:34.229+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:46:34.229+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] MongoDB starting : pid=15476 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:46:34.229+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:46:34.249+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:46:49.094+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:46:49.094+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:46:49.094+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:46:49.094+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:46:49.094+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-03T15:46:49.094+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:46:49.094+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:46:49.094+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:46:49.094+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:46:49.098+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:46:49.102+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:46:49.102+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:46:49.196+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:46:49.196+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:46:49.196+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:46:49.200+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:46:49.200+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:46:49.200+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:47:55.156+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:47:55.199+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:47:55.199+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:47:55.264+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:47:55.264+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] MongoDB starting : pid=16588 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:47:55.265+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:47:55.282+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:48:05.061+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:48:05.062+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:48:05.062+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:48:05.062+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:48:05.062+0300 I NETWORK  [consoleTerminate] closing listening socket: 456
+2015-04-03T15:48:05.062+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:48:05.062+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:48:05.062+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:48:05.062+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:48:05.066+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:48:05.069+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:48:05.069+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:48:05.164+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:48:05.164+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:48:05.164+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:48:05.167+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:48:05.167+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:48:05.167+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:48:38.765+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:48:38.802+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:48:38.803+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:48:38.818+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:48:38.818+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] MongoDB starting : pid=13528 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:48:38.819+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:48:38.840+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:48:50.453+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:48:50.454+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:48:50.454+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:48:50.454+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:48:50.454+0300 I NETWORK  [consoleTerminate] closing listening socket: 464
+2015-04-03T15:48:50.454+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:48:50.454+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:48:50.454+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:48:50.454+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:48:50.456+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:48:50.460+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:48:50.461+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:48:50.556+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:48:50.556+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:48:50.556+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:48:50.560+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:48:50.560+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:48:50.560+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:49:00.095+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:49:00.134+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:49:00.134+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:49:00.154+0300 I CONTROL  [initandlisten] MongoDB starting : pid=15348 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:49:00.155+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:49:00.155+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:49:00.156+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:49:00.170+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:49:24.669+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:49:24.669+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:49:24.669+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:49:24.669+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:49:24.669+0300 I NETWORK  [consoleTerminate] closing listening socket: 412
+2015-04-03T15:49:24.669+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:49:24.669+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:49:24.669+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:49:24.669+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:49:24.674+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:49:24.677+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:49:24.678+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:49:24.772+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:49:24.772+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:49:24.772+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:49:24.776+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:49:24.776+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:49:24.776+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T15:52:13.530+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T15:52:13.553+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T15:52:13.553+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T15:52:13.569+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T15:52:13.569+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] MongoDB starting : pid=11928 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T15:52:13.569+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T15:52:13.589+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T15:52:28.045+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T15:52:28.045+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T15:52:28.045+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T15:52:28.045+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T15:52:28.045+0300 I NETWORK  [consoleTerminate] closing listening socket: 452
+2015-04-03T15:52:28.046+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T15:52:28.046+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T15:52:28.046+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T15:52:28.046+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T15:52:28.049+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T15:52:28.052+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T15:52:28.052+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T15:52:28.148+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T15:52:28.148+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T15:52:28.148+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T15:52:28.151+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T15:52:28.151+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T15:52:28.151+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T16:01:46.463+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T16:01:46.498+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T16:01:46.499+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T16:01:46.515+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T16:01:46.515+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] MongoDB starting : pid=15848 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T16:01:46.516+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T16:01:46.535+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T16:43:07.989+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-03T16:43:07.989+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-03T16:43:07.989+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T16:43:07.989+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T16:43:07.989+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-03T16:43:07.989+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T16:43:07.989+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T16:43:07.989+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T16:43:07.990+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T16:43:07.993+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T16:43:07.993+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T16:43:07.994+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T16:43:08.092+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T16:43:08.092+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T16:43:08.092+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T16:43:08.096+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T16:43:08.096+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T16:43:08.096+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T16:43:19.446+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T16:43:19.467+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T16:43:19.467+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T16:43:19.487+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T16:43:19.487+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5848 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T16:43:19.487+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T16:43:19.506+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-03T17:39:29.371+0300 I CONTROL  Ctrl-C signal
+2015-04-03T17:39:29.372+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-04-03T17:39:29.372+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-03T17:39:29.372+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-03T17:39:29.372+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-03T17:39:29.372+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-03T17:39:29.372+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-03T17:39:29.372+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-03T17:39:29.372+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-03T17:39:29.376+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-03T17:39:29.377+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-03T17:39:29.377+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-03T17:39:29.474+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-03T17:39:29.474+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-03T17:39:29.474+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-03T17:39:29.478+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-03T17:39:29.478+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-03T17:39:29.478+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-03T17:42:21.664+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-03T17:42:21.686+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-03T17:42:21.687+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-03T17:42:21.701+0300 I JOURNAL  [durability] Durability thread started
+2015-04-03T17:42:21.701+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4412 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-03T17:42:21.702+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-03T17:42:21.717+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-06T09:41:08.645+0300 I CONTROL  Ctrl-C signal
+2015-04-06T09:41:08.645+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-04-06T09:41:08.645+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-06T09:41:08.645+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-06T09:41:08.645+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-06T09:41:08.645+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-06T09:41:08.645+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-06T09:41:08.645+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-06T09:41:08.645+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-06T09:41:08.649+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-06T09:41:08.649+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-06T09:41:08.650+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-06T09:41:08.747+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-06T09:41:08.747+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-06T09:41:08.747+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-06T09:41:08.751+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-06T09:41:08.751+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-06T09:41:08.751+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-06T09:41:09.911+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-06T09:41:09.944+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-06T09:41:09.944+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-06T09:41:09.959+0300 I JOURNAL  [durability] Durability thread started
+2015-04-06T09:41:09.959+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5196 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-06T09:41:09.960+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-06T09:41:09.985+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-06T19:54:00.195+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-06T19:54:00.196+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-06T19:54:00.196+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-06T19:54:00.196+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-06T19:54:00.196+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-06T19:54:00.196+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-06T19:54:00.196+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-06T19:54:00.196+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-06T19:54:00.196+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-06T19:54:00.201+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-06T19:54:00.205+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-06T19:54:00.206+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-06T19:54:00.298+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-06T19:54:00.298+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-06T19:54:00.298+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-06T19:54:00.302+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-06T19:54:00.302+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-06T19:54:00.302+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-06T19:54:12.822+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-06T19:54:12.853+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-06T19:54:12.854+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-06T19:54:12.871+0300 I JOURNAL  [durability] Durability thread started
+2015-04-06T19:54:12.871+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] MongoDB starting : pid=6940 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-06T19:54:12.871+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-06T19:54:12.872+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-06T19:54:12.900+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-06T19:54:30.499+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-06T19:54:30.499+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-06T19:54:30.499+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-06T19:54:30.499+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-06T19:54:30.499+0300 I NETWORK  [consoleTerminate] closing listening socket: 452
+2015-04-06T19:54:30.500+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-06T19:54:30.500+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-06T19:54:30.500+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-06T19:54:30.500+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-06T19:54:30.502+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-06T19:54:30.506+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-06T19:54:30.507+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-06T19:54:30.602+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-06T19:54:30.602+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-06T19:54:30.602+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-06T19:54:30.606+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-06T19:54:30.606+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-06T19:54:30.606+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-07T10:15:04.676+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-07T10:15:04.723+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-07T10:15:04.724+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-07T10:15:04.742+0300 I JOURNAL  [durability] Durability thread started
+2015-04-07T10:15:04.743+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-07T10:15:04.743+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5952 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-07T10:15:04.743+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-07T10:15:04.744+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-07T10:15:04.860+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-07T15:52:28.941+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-07T15:52:28.941+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-07T15:52:28.944+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-07T15:52:28.944+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-07T15:52:28.944+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-07T15:52:28.944+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-07T15:52:28.944+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-07T15:52:28.944+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-07T15:52:28.944+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-07T15:52:28.946+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-07T15:52:28.946+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-07T15:52:28.947+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-07T15:52:29.046+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-07T15:52:29.046+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-07T15:52:29.046+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-07T15:52:29.051+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-07T15:52:29.051+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-07T15:52:29.052+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-07T20:38:00.267+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-07T20:38:00.295+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-07T20:38:00.295+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-07T20:38:00.306+0300 I JOURNAL  [durability] Durability thread started
+2015-04-07T20:38:00.307+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5676 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-07T20:38:00.307+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-07T20:38:00.326+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-07T20:53:56.709+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-07T20:53:56.709+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-07T20:53:56.709+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-07T20:53:56.709+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-07T20:53:56.709+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-07T20:53:56.709+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-07T20:53:56.709+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-07T20:53:56.709+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-07T20:53:56.709+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-07T20:53:56.713+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-07T20:53:56.713+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-07T20:53:56.714+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-07T20:53:56.811+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-07T20:53:56.811+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-07T20:53:56.811+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-07T20:53:56.815+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-07T20:53:56.815+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-07T20:53:56.815+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-14T13:27:56.064+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-14T13:27:56.109+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-14T13:27:56.109+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-14T13:27:56.136+0300 I JOURNAL  [durability] Durability thread started
+2015-04-14T13:27:56.137+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5600 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-14T13:27:56.137+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-14T13:27:56.259+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-14T14:39:01.223+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-14T14:39:01.224+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-14T14:39:01.227+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-14T14:39:01.227+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-14T14:39:01.227+0300 I NETWORK  [consoleTerminate] closing listening socket: 456
+2015-04-14T14:39:01.227+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-14T14:39:01.227+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-14T14:39:01.227+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-14T14:39:01.227+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-14T14:39:01.229+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-14T14:39:01.233+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-14T14:39:01.234+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-14T14:39:01.329+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-14T14:39:01.329+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-14T14:39:01.329+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-14T14:39:01.335+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-14T14:39:01.335+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-14T14:39:01.335+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-15T10:45:42.299+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-15T10:45:42.338+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-15T10:45:42.339+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-15T10:45:42.356+0300 I JOURNAL  [durability] Durability thread started
+2015-04-15T10:45:42.356+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] MongoDB starting : pid=2124 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-15T10:45:42.357+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-15T10:45:42.471+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-15T12:18:20.236+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-15T12:18:20.237+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-15T12:18:20.239+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-15T12:18:20.239+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-15T12:18:20.239+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-15T12:18:20.239+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-15T12:18:20.239+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-15T12:18:20.239+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-15T12:18:20.239+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-15T12:18:20.241+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-15T12:18:20.245+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-15T12:18:20.246+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-15T12:18:20.341+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-15T12:18:20.341+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-15T12:18:20.341+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-15T12:18:20.348+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-15T12:18:20.348+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-15T12:18:20.348+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-15T12:39:12.204+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-15T12:39:12.243+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-15T12:39:12.244+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-15T12:39:12.260+0300 I JOURNAL  [durability] Durability thread started
+2015-04-15T12:39:12.260+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-15T12:39:12.260+0300 I CONTROL  [initandlisten] MongoDB starting : pid=6648 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-15T12:39:12.260+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-15T12:39:12.260+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-15T12:39:12.261+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-15T12:39:12.261+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-15T12:39:12.261+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-15T12:39:12.261+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-15T12:39:12.261+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-15T12:39:12.285+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-15T12:39:43.492+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-15T12:39:43.492+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-15T12:39:43.492+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-15T12:39:43.492+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-15T12:39:43.492+0300 I NETWORK  [consoleTerminate] closing listening socket: 452
+2015-04-15T12:39:43.492+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-15T12:39:43.492+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-15T12:39:43.492+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-15T12:39:43.492+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-15T12:39:43.497+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-15T12:39:43.500+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-15T12:39:43.500+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-15T12:39:43.594+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-15T12:39:43.594+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-15T12:39:43.594+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-15T12:39:43.599+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-15T12:39:43.599+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-15T12:39:43.599+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-04-15T12:39:46.493+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-04-15T12:39:46.518+0300 I JOURNAL  [initandlisten] journal dir=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\journal
+2015-04-15T12:39:46.518+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-15T12:39:46.533+0300 I JOURNAL  [durability] Durability thread started
+2015-04-15T12:39:46.533+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] MongoDB starting : pid=6896 port=27017 dbpath=C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data 64-bit host=hjusein-pc
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] db version v3.0.1
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] git version: 534b5a3f9d10f00cd27737fbcd951032248b5952
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] allocator: system
+2015-04-15T12:39:46.534+0300 I CONTROL  [initandlisten] options: { config: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\hjusein\Desktop\work\Training\nodeJStraining\restfulApi\data\mongod.log", quiet: true } }
+2015-04-15T12:39:46.561+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-15T12:40:12.923+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-04-15T12:40:12.923+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-04-15T12:40:12.924+0300 I CONTROL  [consoleTerminate] now exiting
+2015-04-15T12:40:12.924+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-15T12:40:12.924+0300 I NETWORK  [consoleTerminate] closing listening socket: 440
+2015-04-15T12:40:12.924+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-15T12:40:12.924+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-15T12:40:12.924+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-15T12:40:12.924+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-15T12:40:12.930+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-15T12:40:12.934+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-15T12:40:12.935+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-15T12:40:13.026+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-15T12:40:13.026+0300 I JOURNAL  [durability] Durability thread stopped
+2015-04-15T12:40:13.026+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-15T12:40:13.031+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-15T12:40:13.031+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-15T12:40:13.032+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
