@@ -5,12 +5,35 @@ var fileutils = require('./utils/fileutils');
 var mongoDb = require('../routes/dbUtils');
 var async = require('async');
 
-reportFilePath = 'C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\results.log';
-htmlReportFilePath = 'C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\execution_report.html';
-var hostWithPort = 'http://localhost:3001';
-var host = 'localhost';
+//settingsFilePath = ".\\settings.json";
+//reportFilePath = 'C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\results.log';
+//htmlReportFilePath = 'C:\\Users\\hjusein\\Desktop\\work\\Training\\nodeJStraining\\restfulApi\\test\\report\\execution_report.html';
+//var hostWithPort = 'http://localhost:3001';
+//var host = 'localhost';
+
+settingsFilePath = ".\\settings.json";
+reportFilePath = "";
+htmlReportFilePath = "";
+var hostWithPort;
+var host;
 
 async.series([
+	function (callback){
+		console.log("Load settings started....");
+		fileutils.loadSettings(function(settingsData){
+			reportFilePath = settingsData.logFilePath;
+			console.log(reportFilePath);
+			htmlReportFilePath = settingsData.htmlReportFilePath;
+			console.log(htmlReportFilePath);
+			hostWithPort = settingsData.hostWithPort;
+			console.log(hostWithPort);
+			host = settingsData.host;
+			console.log(host);
+			console.log("Load settings finished."); 
+			callback(); 
+		},settingsFilePath
+		);
+	},
 	function (callback){
 		console.log("Database cleaning started....");
 		var db = mongoDb.getDbInstance();

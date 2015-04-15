@@ -26,6 +26,17 @@ var readFile = function(path, callback){
 	});
 }
 
+exports.loadSettings = function(callback, path){
+	readFile(path, function(data){
+		var temp = JSON.parse(data);
+		//console.log(temp.logFilePath);
+		//console.log(temp.htmlReportFilePath);
+		//console.log(temp.hostWithPort);
+		//console.log(temp.host);
+		callback(temp);
+	});
+}
+
 exports.generateHtmlReport = function(callback, path){
 	finishReportFile(path, function(data){
 		var temp = JSON.parse(data);
